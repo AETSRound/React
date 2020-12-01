@@ -7,7 +7,7 @@ class Todo extends React.Component{
         todoList : []
     };
     render(){
-        console.log(this.state.todoList)
+        // console.log(this.state.todoList)
         return(
             <Container>
                 <Input placeholder="오늘 할 일" onKeyPress={this.handleInputKeyPress}></Input>
